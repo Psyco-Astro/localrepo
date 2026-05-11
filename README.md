@@ -9,3 +9,13 @@
 #5. CREATE NEW BRANCH : Git checkout -b <-new branch name here-> eg. Git checkout -b Feature1
 #6. Navigate branch : Git checkout <-branch name> eg. Git checkout main (to navigate back to main branch)
 #7. DELETE branch : Git branch -d <-branch name->
+
+#MERGE BRANCH : 
+METHOD 1:
+
+#1. Git diff <-branch name-> : Check the differences btw the branches & compare the changes.
+#2. Git MERGE <-branch name-> : Merge the 2 branches. 
+
+METHOD 2: Pull request on github
+But here if you successfully merged the branches, to see your changes in your code also in local system you'll need to pull the contents from remote repo, immediately Update your local repo & match the content.
+: Git pull origin main
